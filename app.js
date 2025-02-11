@@ -152,3 +152,26 @@ console.log(computeArea(5, 25))
 console.log("");
 /*------------------- Expressions ---------------------*/
 //syntax
+const addition = function(a, b) {
+    return a + b;
+  }
+  
+  // called using the variable name:
+  console.log(addition(4, 2));
+  
+
+/*------------------- Arrow functions ---------------------*/
+const sumTwoNumbers = (numA, numB) => {
+    return numA + numB;
+  }
+  
+  const values = sumTwoNumbers(5, 10);
+  console.log(values)
+  
+
+  const emphasize = (str) => {
+    return `${str} ${str}!`;
+  }
+  
+console.log( emphasize('really'))
+  
